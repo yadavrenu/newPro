@@ -1,0 +1,128 @@
+2018-11-19 13:20:23 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/users/login
+Stack Trace:
+#0 /var/www/html/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-19 13:25:22 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/users/login
+Stack Trace:
+#0 /var/www/html/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-19 13:25:42 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/users/login
+Stack Trace:
+#0 /var/www/html/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-19 14:27:33 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/users/login
+Stack Trace:
+#0 /var/www/html/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-19 14:29:59 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/users/login
+Stack Trace:
+#0 /var/www/html/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-19 14:30:18 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/users/login
+Stack Trace:
+#0 /var/www/html/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-19 14:33:40 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/users/login
+Stack Trace:
+#0 /var/www/html/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-19 14:34:16 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/users/login
+Stack Trace:
+#0 /var/www/html/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-19 14:34:44 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/users/login
+Stack Trace:
+#0 /var/www/html/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-19 14:34:46 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/users/login
+Stack Trace:
+#0 /var/www/html/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-19 14:39:37 Error: [CakeException] Password hasher class "BlowFish" was not found.
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Controller/Component/Auth/BaseAuthenticate.php(138): BaseAuthenticate->passwordHasher()
+#1 /var/www/html/cakephp/lib/Cake/Controller/Component/Auth/FormAuthenticate.php(79): BaseAuthenticate->_findUser('test', 'test@123')
+#2 /var/www/html/cakephp/lib/Cake/Controller/Component/AuthComponent.php(772): FormAuthenticate->authenticate(Object(CakeRequest), Object(CakeResponse))
+#3 /var/www/html/cakephp/lib/Cake/Controller/Component/AuthComponent.php(612): AuthComponent->identify(Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/html/cakephp/app/Controller/EmployeesController.php(8): AuthComponent->login()
+#5 [internal function]: EmployeesController->login()
+#6 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(EmployeesController), Array)
+#7 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(EmployeesController), Object(CakeRequest))
+#9 /var/www/html/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2018-11-19 15:05:04 Error: [CakeException] Authentication adapter "userModel" was not found.
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Controller/Component/AuthComponent.php(695): AuthComponent->constructAuthenticate()
+#1 /var/www/html/cakephp/lib/Cake/Controller/Component/AuthComponent.php(305): AuthComponent->_getUser()
+#2 [internal function]: AuthComponent->startup(Object(EmployeesController))
+#3 /var/www/html/cakephp/lib/Cake/Utility/ObjectCollection.php(129): call_user_func_array(Array, Array)
+#4 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#5 /var/www/html/cakephp/lib/Cake/Event/CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#6 /var/www/html/cakephp/lib/Cake/Controller/Controller.php(683): CakeEventManager->dispatch(Object(CakeEvent))
+#7 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#8 /var/www/html/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(EmployeesController), Object(CakeRequest))
+#9 /var/www/html/cakephp/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2018-11-19 15:05:19 Error: Fatal Error (1): Call to a member function unauthenticated() on null in [/var/www/html/cakephp/lib/Cake/Controller/Component/AuthComponent.php, line 350]
+2018-11-19 15:05:19 Error: [FatalErrorException] Call to a member function unauthenticated() on null
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/html/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/html/c...', 350)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/html/c...', 350, Array)
+#2 /var/www/html/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/html/c...', 350, Array)
+#3 /var/www/html/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
