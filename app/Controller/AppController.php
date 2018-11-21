@@ -35,6 +35,7 @@ class AppController extends Controller {
 	public $components = array(
 		'DebugKit.Toolbar',
 		'Flash',
+		'Session',
 		"Auth" => array(
 			'loginRedirect' => array(
 				'controller' => 'employees',
@@ -59,5 +60,7 @@ class AppController extends Controller {
 			)
 		)
 	);
+
+	public $helpers=array("Html", "Form", "Session");
 
 }
