@@ -3,6 +3,8 @@ App::uses('AppController', 'Controller');
 
 class EmployeesController extends AppController {
 
+	//public $virtualFields = array('manager_name');
+
 	public function login() {
 		if($this->request->is('post')) {
 			if($this->Auth->login()) {
@@ -18,8 +20,15 @@ class EmployeesController extends AppController {
 	}
 
 	public function dashboard() {
-		$this->autoRender = false;
-		echo 'logged in';
+	//	$this->autoRender = false;
+	//	echo 'logged in';
+	}
+	public function showdata(){
+		$rm_code=$this->Auth->user('rm_code');
+		$result = $this->Employee->find('first',array(
+			'conditions' => array('Employee.code' => $rm_code)));
+		$_SESSION['Auth']['User']['manager_name'] = $result['Employee']['name'];
+		$this->set('datas', $this->Auth->user());
 	}
 }
 ?>

@@ -71,7 +71,7 @@ class DATABASE_CONFIG {
 		'persistent' => false,
 		'host' => 'localhost',
 		'login' => 'root',
-		'password' => 'redhat',
+		'password' => '1234',
 		'database' => 'bestsellers',
 		'prefix' => '',
 		//'encoding' => 'utf8',
